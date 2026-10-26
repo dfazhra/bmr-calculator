@@ -49,13 +49,13 @@ Hasil perhitungan merupakan estimasi dan bukan pengukuran langsung metabolisme t
 ## Screenshot Aplikasi
 
 ### Halaman input
-<img width="274" height="555" alt="1" src="https://github.com/user-attachments/assets/5d0324f3-eb7c-4ee5-9618-696c0858a845" />
+<img width="161" height="349" alt="Image" src="https://github.com/user-attachments/assets/78700ea6-4125-479f-87c4-765092c52234" />
 
 ### Halaman hasil (sebelumnya mengatur weight, height, age, dan activity level sesuai kebutuhan)
-<img width="270" height="558" alt="2" src="https://github.com/user-attachments/assets/d995fe07-d5a1-4ebd-a4ec-a6cbc0fefc9e" />
+<img width="162" height="349" alt="Image" src="https://github.com/user-attachments/assets/e79ae177-0abf-4c4e-b6f3-2b4c08d04af4" />
 
 ### List activity level
-<img width="280" height="566" alt="7" src="https://github.com/user-attachments/assets/476abe04-aad1-4cd0-9cbb-6f6014fc8cfc" />
+<img width="162" height="349" alt="Image" src="https://github.com/user-attachments/assets/4106cd5f-8fec-4249-9803-28f03de17c93" />
 
 
 
