@@ -24,14 +24,37 @@ Aplikasi ini memungkinkan pengguna untuk memasukkan informasi pribadi berupa jen
 ## Tujuan
 Aplikasi ini dikembangkan untuk membantu pengguna memahami perkiraan kebutuhan energi tubuh dan kebutuhan kalori hariannya berdasarkan informasi fisik serta tingkat aktivitas. Hasil perhitungan dapat digunakan sebagai referensi awal untuk mengenali kebutuhan energi tubuh.
 
+## Rumus Perhitungan
+Aplikasi menggunakan rumus Mifflin-St Jeor.
 
-## Halaman input
+**Untuk laki-laki:**
+
+BMR = (10 × berat badan) + (6,25 × tinggi badan) − (5 × usia) + 5
+
+**Untuk perempuan:**
+
+BMR = (10 × berat badan) + (6,25 × tinggi badan) − (5 × usia) − 161
+
+Keterangan:
+- Berat badan menggunakan satuan kilogram (kg).
+- Tinggi badan menggunakan satuan sentimeter (cm).
+- Usia menggunakan satuan tahun.
+
+Estimasi kebutuhan kalori harian dihitung menggunakan rumus:
+
+**Kebutuhan kalori harian = BMR × faktor aktivitas**
+
+Hasil perhitungan merupakan estimasi dan bukan pengukuran langsung metabolisme tubuh.
+
+## Screenshot Aplikasi
+
+### Halaman input
 <img width="274" height="555" alt="1" src="https://github.com/user-attachments/assets/5d0324f3-eb7c-4ee5-9618-696c0858a845" />
 
-## Halaman hasil (sebelumnya mengatur weight, height, age, dan activity level sesuai kebutuhan)
+### Halaman hasil (sebelumnya mengatur weight, height, age, dan activity level sesuai kebutuhan)
 <img width="270" height="558" alt="2" src="https://github.com/user-attachments/assets/d995fe07-d5a1-4ebd-a4ec-a6cbc0fefc9e" />
 
-## List activity level
+### List activity level
 <img width="280" height="566" alt="7" src="https://github.com/user-attachments/assets/476abe04-aad1-4cd0-9cbb-6f6014fc8cfc" />
 
 
