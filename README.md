@@ -1,17 +1,15 @@
-# bmi
+# Kalkulator BMR
 
 A new Flutter project.
 
-## Getting Started
+## Anggota Kelompok
+1. Difa Azzahra Hakim (K3524009)
+2. Akhilla Tjandra Ratri (K3524021)
+3. Ani Nuri Azizah (K3524023)
 
-This project is a starting point for a Flutter application.
+## Deskripsi BMR
+BMR atau Basal Metabolic Rate adalah energi dasar yang dihabiskan tubuh hanya untuk bertahan hidup tanpa melakukan aktivitas fisik apa pun. 
 
-A few resources to get you started if this is your first Flutter project:
+#Screenshot Aplikasi
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
