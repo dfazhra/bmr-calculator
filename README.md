@@ -12,14 +12,14 @@ BMR Calculator adalah aplikasi kalkulator yang digunakan untuk menghitung Basal 
 Aplikasi ini memungkinkan pengguna untuk memasukkan informasi pribadi berupa jenis kelamin, tinggi badan, berat badan, usia, serta tingkat aktivitas fisik. Berdasarkan data tersebut, aplikasi akan menghitung estimasi BMR dan kebutuhan kalori harian berdasarkan tingkat aktivitas yang dipilih.
 
 ## Fitur
-Gender Selection: Memilih jenis kelamin laki-laki atau perempuan.
-Height Input: Mengatur tinggi badan dalam sentimeter.
-Weight Input: Mengatur berat badan dalam kilogram.
-Age Input: Menentukan usia pengguna dalam tahun.
-Activity Level: Memilih tingkat aktivitas fisik untuk memperkirakan kebutuhan kalori harian.
-BMR Calculation: Menghitung estimasi kebutuhan kalori dasar tubuh dalam satuan kcal/day.
-Daily Calorie Needs: Menampilkan perkiraan kebutuhan kalori harian berdasarkan tingkat aktivitas yang dipilih.
-Result Page: Menampilkan hasil perhitungan BMR dan estimasi kebutuhan kalori harian dalam antarmuka yang mudah dipahami.
+- Gender Selection: Memilih jenis kelamin.
+- Height Input: Memasukkan tinggi badan dalam sentimeter.
+- Weight Input: Memasukkan berat badan dalam kilogram.
+- Age Input: Memasukkan usia dalam tahun.
+- Activity Level: Memilih tingkat aktivitas fisik.
+- BMR Calculation: Menghitung estimasi kebutuhan kalori dasar tubuh.
+- Daily Calorie Needs: Menampilkan estimasi kebutuhan kalori harian.
+- Result Page: Menampilkan hasil perhitungan dalam tampilan yang mudah dipahami
 
 ## Tujuan
 Aplikasi ini dikembangkan untuk membantu pengguna memahami perkiraan kebutuhan energi tubuh dan kebutuhan kalori hariannya berdasarkan informasi fisik serta tingkat aktivitas. Hasil perhitungan dapat digunakan sebagai referensi awal untuk mengenali kebutuhan energi tubuh.
