@@ -1,10 +1,10 @@
 
 import 'package:flutter/material.dart';
 
-const activeCardColor = Color(0xFF1D1E33);
-const inactiveCardColor = Color(0xFF111328);
+const activeCardColor = Color(0xFF2D317B);
+const inactiveCardColor = Color(0xFF0D1031);
 const bottomContainerHeight = 80.0;
-const bottomContainerColor = Color(0xFFEB1555);
+const bottomContainerColor = Color(0xFF197CFD);
 
 enum Gender {
   male,
@@ -27,7 +27,7 @@ const buttonTextStyle = TextStyle(
 );
 
 const resultTextStyle = TextStyle(
-  color: Color(0xFF24D876),
+  color: Color(0xFF197CFD),
   fontSize: 22,
   fontWeight: FontWeight.bold,
 );

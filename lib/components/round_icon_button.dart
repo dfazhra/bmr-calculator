@@ -21,7 +21,8 @@ class RoundIconButton extends StatelessWidget {
         height: 40.0,
       ),
       shape: const CircleBorder(),
-      fillColor: const Color(0xFF4C4F5E),
+      fillColor: const Color(0xFF454967),
+      textStyle: const TextStyle(color: Colors.white),
       onPressed: onPressed,
       child: FaIcon(icon),
     );

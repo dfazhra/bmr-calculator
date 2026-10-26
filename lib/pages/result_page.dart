@@ -171,7 +171,7 @@ class ResultPage extends StatelessWidget {
                             // Header tabel.
                             Container(
                               padding: const EdgeInsets.all(12),
-                              color: const Color(0xFF30324D),
+                              color: const Color(0xFF252A50),
                               child: const Row(
                                 children: [
                                   Expanded(
@@ -222,7 +222,7 @@ class ResultPage extends StatelessWidget {
                                   ),
                                   decoration: BoxDecoration(
                                     color: isSelected
-                                        ? const Color(0xFF30324D)
+                                        ? const Color(0xFF252A50)
                                         : Colors.transparent,
                                     border: const Border(
                                       bottom: BorderSide(

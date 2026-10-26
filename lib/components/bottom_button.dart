@@ -19,11 +19,17 @@ class BottomButton extends StatelessWidget {
       child: Container(
         margin: const EdgeInsets.only(top: 10.0),
         height: bottomContainerHeight,
-        color: bottomContainerColor,
+        decoration: const BoxDecoration(
+          color: bottomContainerColor,
+          borderRadius: BorderRadius.vertical(top: Radius.circular(14.0)),
+        ),
         child: Center(
           child: Text(
             buttonTitle,
-            style: buttonTextStyle,
+            style: buttonTextStyle.copyWith(
+              color: const Color(0xFF0B0D23),
+              letterSpacing: 0.5,
+            ),
           ),
         ),
       ),

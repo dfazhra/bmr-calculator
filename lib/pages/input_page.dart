@@ -94,16 +94,24 @@ class _InputPageState extends State<InputPage> {
                         const Text(' cm', style: labelTextStyle),
                       ],
                     ),
-                    Slider(
-                      value: height.toDouble(),
-                      min: 120,
-                      max: 220,
-                      activeColor: const Color(0xFFEB1555),
-                      onChanged: (value) {
-                        setState(() {
-                          height = value.round();
-                        });
-                      },
+                    SliderTheme(
+                      data: SliderTheme.of(context).copyWith(
+                        activeTrackColor: const Color(0xFF197CFD),
+                        inactiveTrackColor: const Color(0xFF454967),
+                        thumbColor: const Color(0xFF197CFD),
+                        overlayColor: const Color(0x33197CFD),
+                        trackHeight: 5,
+                      ),
+                      child: Slider(
+                        value: height.toDouble(),
+                        min: 120,
+                        max: 220,
+                        onChanged: (value) {
+                          setState(() {
+                            height = value.round();
+                          });
+                        },
+                      ),
                     ),
                   ],
                 ),
@@ -180,7 +188,17 @@ class _InputPageState extends State<InputPage> {
                             fontSize: 14,
                           ),
                           decoration: const InputDecoration(
-                            border: OutlineInputBorder(),
+                            enabledBorder: OutlineInputBorder(
+                              borderSide: BorderSide(
+                                color: Color(0xFF454967),
+                              ),
+                            ),
+                            focusedBorder: OutlineInputBorder(
+                              borderSide: BorderSide(
+                                color: Color(0xFF197CFD),
+                                width: 2,
+                              ),
+                            ),
                           ),
                           items: List.generate(
                             Calculator.activityNames.length,

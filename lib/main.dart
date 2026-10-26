@@ -14,12 +14,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
-        primaryColor: const Color(0xFF0A0E21),
-        scaffoldBackgroundColor: const Color(0xFF0A0E21),
+        primaryColor: const Color(0xFF0B0D23),
+        scaffoldBackgroundColor: const Color(0xFF0B0D23),
         appBarTheme: const AppBarTheme(
-          backgroundColor: Color(0xFF0A0E21),
+          backgroundColor: Color(0xFF151D31),
           centerTitle: true,
           elevation: 0.0,
+          foregroundColor: Color(0xFFF1EFF8),
         ),
       ),
       home: const InputPage(),
